@@ -40,10 +40,10 @@ public class SortingVisualizer {
                     break;
                 case 5:
                     new Heap(random_array, SIZE);
+                    Delay();
                     break;
                 case 9:
                     random_array = Randomized(SIZE);
-                    Delay();
                     break;
                 case 0:
                     System.exit(-1);
