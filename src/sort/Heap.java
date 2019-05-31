@@ -3,11 +3,13 @@ package sort;
 public class Heap {
     private int depth = 0;
     private int size;
+    private int density;
 
-    public Heap(int[] data, int size) {
+    public Heap(int[] data, int size, int density) {
         int[] clone = new int[size + 1];
-        System.arraycopy(data, 0, clone, 1, size);
         this.size = size;
+        this.density = density;
+        System.arraycopy(data, 0, clone, 1, size);
         Heapify(clone);
     }
 
@@ -28,8 +30,8 @@ public class Heap {
     }
 
     /*
-        left_index = 2 * index + 1
-        right_index = 2 * index + 2
+        left_index = 2 * index
+        right_index = 2 * index + 1
      */
     private void Insert(int[] data, int[] temp, int index) {
         int left = 2 * index;
@@ -117,7 +119,7 @@ public class Heap {
 
     private void PrintArray(int[] obj) {
         for (int i = 1; i < size; i++) {   // HeapSort 의 데이터 배열은 index = 1 부터 시작
-            for (int j = 0; j < obj[i] / 2; j++)
+            for (int j = 0; j < obj[i] / density; j++)
                 System.out.print("=");
             System.out.print(" " + obj[i] + "\n");
         }

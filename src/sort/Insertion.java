@@ -11,9 +11,11 @@ import java.util.Arrays;
  */
 public class Insertion {
     private int size;
+    private int density;
 
-    public Insertion(int[] data, int size) {
+    public Insertion(int[] data, int size, int density) {
         this.size = size;
+        this.density = density;
         int[] clone = data.clone();
         InsertionSort(clone);
     }
@@ -44,7 +46,7 @@ public class Insertion {
 
     private void PrintArray(int[] obj) {
         for (int i = 0; i < size; i++) {
-            for (int j = 0; j < obj[i] / 2; j++)
+            for (int j = 0; j < obj[i] / density; j++)
                 System.out.print("=");
             System.out.print(" " + obj[i] + "\n");
         }

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9fb1b90-06a6-4680-ace2-b8db6e41daa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingVisualizer/SortingVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingVisualizer/SortingVisualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingVisualizer/sort/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingVisualizer/sort/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingVisualizer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortingVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Heap.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Insertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Quick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Selection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Selection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1631">
-              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="353">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+            <state relative-caret-position="245">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -45,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/Selection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="263">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -54,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/Insertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="57" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="-271">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/Quick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="244">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1229">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="282">
+              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,12 +99,12 @@
         <option value="$PROJECT_DIR$/src/algoritm/Selection.java" />
         <option value="$PROJECT_DIR$/src/algoritm/Insertion.java" />
         <option value="$PROJECT_DIR$/src/sort/Sorting.java" />
-        <option value="$PROJECT_DIR$/src/sort/Merge.java" />
         <option value="$PROJECT_DIR$/src/sort/Insertion.java" />
         <option value="$PROJECT_DIR$/src/sort/Selection.java" />
-        <option value="$PROJECT_DIR$/src/sort/Quick.java" />
-        <option value="$PROJECT_DIR$/src/SortingVisualizer.java" />
         <option value="$PROJECT_DIR$/src/sort/Heap.java" />
+        <option value="$PROJECT_DIR$/src/sort/Quick.java" />
+        <option value="$PROJECT_DIR$/src/sort/Merge.java" />
+        <option value="$PROJECT_DIR$/src/SortingVisualizer.java" />
       </list>
     </option>
   </component>
@@ -153,7 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559233861670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559284017223" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -206,7 +200,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.20228216" />
@@ -214,7 +208,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32987553" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.21887967" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.1400415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.526971" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -257,28 +251,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/sort/Merge.java</url>
-          <line>25</line>
-          <properties class="sort.Merge" method="Combine">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/sort/Heap.java</url>
-          <line>76</line>
-          <properties class="sort.Heap" method="Delete">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sort/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -310,48 +282,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/Merge.java">
+    <entry file="file://$PROJECT_DIR$/src/sort/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1631">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="263">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="244">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="57" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1229">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-271">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+        <state relative-caret-position="245">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

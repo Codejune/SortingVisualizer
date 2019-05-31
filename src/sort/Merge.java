@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class Merge {
     private int size;
+    private int density;
     private int count = 1;
 
-    public Merge(int[] data, int size) {
+    public Merge(int[] data, int size, int density) {
         this.size = size;
+        this.density = density;
         int[] clone = data.clone();
         System.out.println("원본 배열 : ");
         PrintArray(clone);
@@ -53,9 +55,8 @@ public class Merge {
         }
 
         // 배열 sorted[](임시 배열)의 리스트를 배열 list[]로 재복사
-        for (int l = left; l <= right; l++) {
-            data[l] = temp[l];
-        }
+        if (right + 1 - left >= 0)
+            System.arraycopy(temp, left, data, left, right + 1 - left);
 
         System.out.println("\n" + count + "번째 정렬 : ");
         if (!(Arrays.equals(data, original)))
@@ -67,7 +68,7 @@ public class Merge {
 
     private void PrintArray(int[] obj) {
         for (int i = 0; i < size; i++) {
-            for (int j = 0; j < obj[i] / 2; j++)
+            for (int j = 0; j < obj[i] / density; j++)
                 System.out.print("=");
             System.out.print(" " + obj[i] + "\n");
         }
