@@ -1,4 +1,5 @@
 import sort.*;
+import time.TimeMeasurement;
 
 import java.util.Scanner;
 
@@ -8,6 +9,7 @@ public class SortingVisualizer {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        TimeMeasurement time = new TimeMeasurement();
         int[] random_array = Randomized();
 
         while (true) {
@@ -26,23 +28,33 @@ public class SortingVisualizer {
             int input = scanner.nextInt();
             switch (input) {
                 case 1:
+                    time.start();
                     new Selection(random_array, SIZE, density);
+                    System.out.println("측정 시간 : " + time.end());
                     Pause();
                     break;
                 case 2:
+                    time.start();
                     new Insertion(random_array, SIZE, density);
+                    System.out.println("측정 시간 : " + time.end());
                     Pause();
                     break;
                 case 3:
+                    time.start();
                     new Merge(random_array, SIZE, density);
+                    System.out.println("측정 시간 : " + time.end());
                     Pause();
                     break;
                 case 4:
+                    time.start();
                     new Quick(random_array, SIZE, density);
+                    System.out.println("측정 시간 : " + time.end());
                     Pause();
                     break;
                 case 5:
+                    time.start();
                     new Heap(random_array, SIZE, density);
+                    System.out.println("측정 시간 : " + time.end());
                     Pause();
                     break;
                 case 8:
@@ -90,8 +102,7 @@ public class SortingVisualizer {
 
     private static void Pause() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("계속 하려면 아무키나 입력하세요...");
+        System.out.print("계속 하려면 아무키나 입력하세요...\n");
         scanner.nextLine();
     }
-
 }
