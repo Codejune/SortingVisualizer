@@ -23,6 +23,7 @@ public class SortingVisualizer {
             System.out.println("8. 표현 밀도 재설정");
             System.out.println("9. 배열 재설정");
             System.out.println("0. Exit");
+
             System.out.println("############################");
             System.out.print("Input >> ");
             int input = scanner.nextInt();

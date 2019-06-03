@@ -23,6 +23,7 @@ public class Heap {
         for (int i = 1; i < data.length; i++) {
             Insert(data, temp, i);
         }
+
         data = temp;
         System.out.println("\nHeapify 배열 : ");
         PrintArray(data);
@@ -118,7 +119,7 @@ public class Heap {
     }
 
     private void PrintArray(int[] obj) {
-        for (int i = 1; i < size; i++) {   // HeapSort 의 데이터 배열은 index = 1 부터 시작
+        for (int i = 1; i <= size; i++) {   // HeapSort 의 데이터 배열은 index = 1 부터 시작
             for (int j = 0; j < obj[i] / density; j++)
                 System.out.print("=");
             System.out.print(" " + obj[i] + "\n");
